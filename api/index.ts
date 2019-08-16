@@ -1,7 +1,7 @@
 import { ApolloServer } from "apollo-server-micro";
 import graphQLSchema from "swagger-to-graphql";
 
-const proxyUrl = "https://esi.evetech.net/";
+const proxyUrl = "https://esi.evetech.net/latest";
 const pathToSwaggerSchema = `${__dirname}/swagger.json`;
 console.log(pathToSwaggerSchema);
 

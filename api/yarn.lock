@@ -1510,11 +1510,6 @@ node-fetch@^2.1.2, node-fetch@^2.2.0:
   resolved "https://registry.yarnpkg.com/node-fetch/-/node-fetch-2.6.0.tgz#e633456386d4aa55863f676a7ab0daa8fdecb0fd"
   integrity sha512-8dG4H5ujfvFiqDmVu9fQ5bOHUC15JMjMY/Zumv26oOvvVJjM67KF8koCWIabKQ1GJIa9r2mMZscBq/TbdOcmNA==
 
-node-request-by-swagger@^1.1.4:
-  version "1.1.4"
-  resolved "https://registry.yarnpkg.com/node-request-by-swagger/-/node-request-by-swagger-1.1.4.tgz#909a057bd4dffdf5245cb713f5543a9c56eea94d"
-  integrity sha512-hwaTaFPUwNKns5qXwGJpLQM3Z5zRluYeAxpYy1L8fWmWdT/DjLmsnW8/oGlSN8Vo4R28c2znfUoBUiB/RlPptw==
-
 normalize-url@^4.1.0:
   version "4.3.0"
   resolved "https://registry.yarnpkg.com/normalize-url/-/normalize-url-4.3.0.tgz#9c49e10fc1876aeb76dba88bf1b2b5d9fa57b2ee"
@@ -2014,19 +2009,17 @@ supports-color@^5.3.0:
   dependencies:
     has-flag "^3.0.0"
 
-swagger-to-graphql@^1.8.0:
+"swagger-to-graphql@https://github.com/yarax/swagger-to-graphql.git":
   version "1.8.0"
-  resolved "https://registry.yarnpkg.com/swagger-to-graphql/-/swagger-to-graphql-1.8.0.tgz#fe1694f70a0dd7a649676570f9b9d0d44b678a96"
-  integrity sha512-0oZixylOG/a2qfeChlNDsEOsQzUi0i9rVvQ9i7j3tMOuy/gMh3MwB83YooKtOGnK+x/LiaIXu8FgcfWze/b7hg==
+  resolved "https://github.com/yarax/swagger-to-graphql.git#54a4a0b35a87669fb5fddd69cbda0f5b1aa17e76"
   dependencies:
     isomorphic-fetch "^2.2.1"
     js-yaml "^3.13.1"
     json-schema-ref-parser "^6.1.0"
     lodash "^4.17.11"
-    node-request-by-swagger "^1.1.4"
     request "^2.88.0"
     request-promise "^4.2.4"
-    yargs "^13.2.2"
+    yargs "^13.2.4"
 
 symbol-observable@^1.0.4:
   version "1.2.0"
@@ -2238,7 +2231,7 @@ yargs-parser@^13.1.1:
     camelcase "^5.0.0"
     decamelize "^1.2.0"
 
-yargs@^13.2.2:
+yargs@^13.2.4:
   version "13.3.0"
   resolved "https://registry.yarnpkg.com/yargs/-/yargs-13.3.0.tgz#4c657a55e07e5f2cf947f8a366567c04a0dedc83"
   integrity sha512-2eehun/8ALW8TLoIl7MVaRUrg+yCnenu8B4kBlRxj3GJGDKU1Og7sMXPNm1BYyM1DOJmTZ4YeN/Nwxv+8XJsUA==
