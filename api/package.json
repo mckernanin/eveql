@@ -11,7 +11,7 @@
     "express": "^4.17.1",
     "got": "^9.6.0",
     "graphql": "^14.4.2",
-    "swagger-to-graphql": "https://github.com/yarax/swagger-to-graphql.git"
+    "swagger-to-graphql": "https://github.com/mckernanin/swagger-to-graphql.git"
   },
   "devDependencies": {
     "@types/express": "^4.17.0",
