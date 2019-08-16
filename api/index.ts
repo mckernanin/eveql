@@ -11,7 +11,8 @@ const createServer = async () => {
   if (server) return server;
   server = new ApolloServer({
     schema: graphQLSchema(pathToSwaggerSchema, proxyUrl),
-    playground: true
+    playground: true,
+    introspection: true
   });
   return server;
 };
