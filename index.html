@@ -1,1 +1,42 @@
-<h1>Hello World!</h1>
+<html>
+  <head>
+    <link type="text/css" src="https://fonts.googleapis.com/css?family=Roboto+Mono|Roboto:400,300,500,700,900,100" />
+  </head>
+  <style type>
+  body {
+    background: #111 url(background.jpg) center/cover fixed;
+    color: white;
+    margin: 0;
+    font-family: "Roboto", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+  }
+
+  a {
+    color: white;
+    text-decoration: underline;
+  }
+
+  h1 {
+    font-weight: 300;
+  }
+
+  div {
+    margin: auto;
+    display: flex;
+    background: rgba(0,0,0,0.5);
+    padding: 3em;
+    flex-flow: column;
+  }
+  </style>
+  <body>
+    <div>
+      <h1>EveQL</h1>
+      <p>A GraphQL server wrapping EVE's ESI, using the swagger definition to automatically generate a self-documenting GraphQL API.</p>
+      <p>Click <a href="/api/">here</a> to open GraphQL Playground.</p>
+      <p><a href="https://github.com/mckernanin/eveql">View on github</a></p>
+    </div>
+  </body>
+</html>
