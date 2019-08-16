@@ -14,6 +14,13 @@
   resolved "https://registry.yarnpkg.com/@apollographql/graphql-playground-html/-/graphql-playground-html-1.6.24.tgz#3ce939cb127fb8aaa3ffc1e90dff9b8af9f2e3dc"
   integrity sha512-8GqG48m1XqyXh4mIZrtB5xOhUwSsh1WsrrsaZQOEYYql3YN9DEu9OOSg0ILzXHZo/h2Q74777YE4YzlArQzQEQ==
 
+"@now/node@^0.12.6":
+  version "0.12.6"
+  resolved "https://registry.yarnpkg.com/@now/node/-/node-0.12.6.tgz#6feecd767c56d9e4b1f58f38be19398a75b01dc0"
+  integrity sha512-CdOfJFZXOjwRgvn24LNCgN+NFcDEu2WTk7diZzrsYXcQcdMgFkLh+A42F/nn4sPNGkgfcfSi83N0ra5OkL/y/A==
+  dependencies:
+    "@types/node" "*"
+
 "@protobufjs/aspromise@^1.1.1", "@protobufjs/aspromise@^1.1.2":
   version "1.1.2"
   resolved "https://registry.yarnpkg.com/@protobufjs/aspromise/-/aspromise-1.1.2.tgz#9b8b0cc663d669a7d8f6f5d0893a14d348f30fbf"
@@ -2009,9 +2016,9 @@ supports-color@^5.3.0:
   dependencies:
     has-flag "^3.0.0"
 
-"swagger-to-graphql@https://github.com/yarax/swagger-to-graphql.git":
+"swagger-to-graphql@https://github.com/mckernanin/swagger-to-graphql.git":
   version "1.8.0"
-  resolved "https://github.com/yarax/swagger-to-graphql.git#54a4a0b35a87669fb5fddd69cbda0f5b1aa17e76"
+  resolved "https://github.com/mckernanin/swagger-to-graphql.git#139f5165ad231e1b1e1a7128b290c5ba2eba522d"
   dependencies:
     isomorphic-fetch "^2.2.1"
     js-yaml "^3.13.1"
