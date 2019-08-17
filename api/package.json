@@ -6,6 +6,9 @@
   "repository": "git@github.com:mckernanin/eveql.git",
   "author": "Kevin McKernanclear <kevin@mckernan.in>",
   "license": "MIT",
+  "engines": {
+    "node": "10.x.x"
+  },
   "dependencies": {
     "apollo-server-micro": "^2.8.1",
     "express": "^4.17.1",
