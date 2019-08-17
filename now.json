@@ -1,0 +1,31 @@
+{
+  "name": "eveql",
+  "version": 2,
+  "env": {
+    "ENGINE_API_KEY": "@eveql-engine-api-key"
+  },
+  "builds": [
+    {
+      "src": "/api/index.ts",
+      "use": "@now/node"
+    },
+    {
+      "src": "/static/*",
+      "use": "@now/static"
+    }
+  ],
+  "routes": [
+    {
+      "src": "/api",
+      "dest": "api/index.ts"
+    },
+    {
+      "src": "/(.*)",
+      "dest": "static/$1"
+    },
+    {
+      "src": "/",
+      "dest": "static/index.html"
+    }
+  ]
+}
